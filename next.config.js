@@ -2,6 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
+  basePath: '/LMENC',
+  assetPrefix: '/LMENC',
   images: {
     unoptimized: true
   }
