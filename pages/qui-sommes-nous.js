@@ -15,7 +15,7 @@ export default function About(){
             </div>
             <div className="about-image">
               {/* Définir la largeur en pourcentage ici (ex: '80%') */}
-              <img src="/assets/img/qsn1.png" alt="La Malle en Coin - atelier" style={{width: '50%'}} />
+              <img src="assets/img/qsn1.png" alt="La Malle en Coin - atelier" style={{width: '50%'}} />
             </div>
           </div>
         </section>
@@ -24,7 +24,7 @@ export default function About(){
           <div className="about-row">
             <div className="about-image">
               {/* Définir la largeur en pourcentage ici (ex: '70%') */}
-              <img src="/assets/img/qsn2.png" alt="Jean-Philippe Roland" style={{width: '50%'}} />
+              <img src="assets/img/qsn2.png" alt="Jean-Philippe Roland" style={{width: '50%'}} />
             </div>
             <div className="about-text">
               <h3>Une équipe de passionnés</h3>
@@ -43,9 +43,9 @@ export default function About(){
           <p>Spécialisée dans la restauration de malles, La Malle en Coin fait partie des rares entreprises à perpétuer un savoir-faire artisanal traditionnel. Chaque pièce est restaurée avec soin, dans le respect des techniques d’origine, afin de préserver son authenticité et son histoire. L’atelier se distingue également par l’utilisation d’outils anciens, fidèles aux méthodes d’autrefois, apportant une véritable valeur ajoutée au travail de restauration et reflétant une approche profondément respectueuse des traditions.</p>
           <div className="about-gallery">
             {/* Définir un pourcentage différent pour chaque vignette si besoin */}
-            <img src="/assets/img/qsn3.png" alt="Restaurations 1" style={{width: '92%'}} />
-            <img src="/assets/img/qsn4.png" alt="Restaurations 2" style={{width: '85%'}} />
-            <img src="/assets/img/qsn5.png" alt="Restaurations 3" style={{width: '78%'}} />
+            <img src="assets/img/qsn3.png" alt="Restaurations 1" style={{width: '92%'}} />
+            <img src="assets/img/qsn4.png" alt="Restaurations 2" style={{width: '85%'}} />
+            <img src="assets/img/qsn5.png" alt="Restaurations 3" style={{width: '78%'}} />
           </div>
         </section>
 

@@ -10,7 +10,7 @@ export default function Header(){
       <div className="container header-inner">
         <div className="brand">
           <Link href="/" onClick={close} className="brand-link" aria-label="Accueil">
-            <img src="/assets/img/logo.png" alt="La Malle en Coin" className="logo"/>
+            <img src="assets/img/logo.png" alt="La Malle en Coin" className="logo"/>
           </Link>
         </div>
 
