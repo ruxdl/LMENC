@@ -19,7 +19,7 @@ jobs:
       - name: Install
         run: npm ci
       - name: Build
-        run: npx next build && npx next export
+        run: npx next build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
