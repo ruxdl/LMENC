@@ -10,6 +10,7 @@ export default function Renovations(){
     <div>
       <Header />
       <main className="container">
+        <h1>Rénovations de malles</h1>
         <h2>Donnez une nouvelle vie à votre malle</h2>
         <p>Vous souhaitez une malle personnalisée, en harmonie avec votre intérieur ? Vous avez besoin de nettoyer, réparer ou restaurer la toile, le cuir ou le bois d’une malle ancienne ?</p>
         <p>Nous restaurons et personnalisons des malles à la demande, dans le respect de leur histoire.</p>
@@ -54,16 +55,17 @@ export default function Renovations(){
         <h3>Choix des teintes bois</h3>
         <p>Pour les malles en bois, un nuancier peut être envoyé en haute définition afin de choisir précisément la teinte souhaitée.</p>
 
-        {/* Video block - user should place the file in public/assets/videos */}
-        <video src={videoSrc} controls preload="metadata" playsInline controlsList="nodownload" className="service-video" style={{width:'100%',maxWidth:900,display:'block',margin:'16px auto',borderRadius:8}}>
-          Votre navigateur ne supporte pas la vidéo.
-        </video>
 
         <h3>Référence publique / Anecdote</h3>
         <p>Le Musée de l’Hydraviation de Biscarrosse nous a confié la restauration d’une malle cintrée des années 1920. Elle est aujourd’hui exposée aux côtés d’un mannequin d’hôtesse de l’époque.</p>
 
         <h3>Notre recommandation</h3>
         <p>Chaque restauration respecte l’esprit d’origine de la malle. Lorsque la toile d’origine est en bon état, la conserver est toujours préférable : plus authentique, plus esthétique et plus respectueuse de l’histoire de la malle.</p>
+
+        {/* Video block - user should place the file in public/assets/videos */}
+        <video src={videoSrc} controls preload="metadata" playsInline controlsList="nodownload" className="service-video" style={{width:'100%',maxWidth:900,display:'block',margin:'16px auto',borderRadius:8}}>
+          Votre navigateur ne supporte pas la vidéo.
+        </video>
 
         <p><Link href="/nos-services" className="btn-secondary">Retour aux prestations</Link></p>
       </main>

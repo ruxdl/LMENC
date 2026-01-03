@@ -4,13 +4,17 @@ export default function Header(){
   const [open,setOpen] = useState(false)
   const toggle = ()=> setOpen(s=>!s)
   const close = ()=> setOpen(false)
+  // compute runtime prefix so assets load correctly when site is served under a subpath (e.g. /LMENC)
+  const prefix = (typeof window !== 'undefined' && window.location.pathname.startsWith('/LMENC')) ? '/LMENC' : ''
 
   return (
     <header className="site-header">
       <div className="container header-inner">
         <div className="brand">
-          <img src="/assets/img/logo.png" alt="La Malle en Coin" className="logo"/>
-          <h1 className="site-title">La Malle en Coin</h1>
+          <Link href="/" onClick={close} className="brand-link" aria-label="Accueil">
+            <img src={`${prefix}/assets/img/logo.png`} alt="La Malle en Coin" className="logo"/>
+          </Link>
+          <span className="site-title">LA MALLE EN COIN</span>
         </div>
 
         <nav className="main-nav">
