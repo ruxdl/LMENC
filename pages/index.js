@@ -1,7 +1,5 @@
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import ReviewsCarousel from '../components/ReviewsCarousel'
-
 export default function Home(){
   return (
     <div>
@@ -13,7 +11,7 @@ export default function Home(){
               <h2 className="hero-title">Rénovation de malles et bagages de luxe</h2>
               <p className="hero-sub">Savoir-faire artisanal — Restauration, personnalisation et entretien pour pièces d'exception</p>
             </div>
-            <div className="cut-line" aria-hidden="true"><img src="assets/img/scissors.svg" alt="ciseaux" className="cut-svg"/></div>
+            <div className="cut-line" aria-hidden="true"><img src="/assets/img/scissors.svg" alt="ciseaux" className="cut-svg"/></div>
           </div>
         </section>
 
@@ -32,29 +30,27 @@ export default function Home(){
         </section>
 
         <section id="services" className="container services">
+          <div className="section-divider" aria-hidden="true"></div>
           <div className="services-grid">
             <article className="service">
               <h4 className="service-title">Nos prestations</h4>
               <p className="service-desc">Explorez l'ensemble de nos prestations et services.</p>
-              <a className="btn-secondary" href="nos-services">En savoir plus</a>
+              <a className="btn-secondary" href="/nos-services">En savoir plus</a>
             </article>
 
             <article className="service">
               <h4 className="service-title">Qui sommes-nous ?</h4>
               <p className="service-desc">Découvrez notre histoire et notre philosophie.</p>
-              <a className="btn-secondary" href="qui-sommes-nous">En savoir plus</a>
+              <a className="btn-secondary" href="/qui-sommes-nous">En savoir plus</a>
             </article>
 
             <article className="service">
               <h4 className="service-title">Nos valeurs</h4>
               <p className="service-desc">Apprenez en plus sur nos valeurs.</p>
-              <a className="btn-secondary" href="nos-valeurs">En savoir plus</a>
+              <a className="btn-secondary" href="/nos-valeurs">En savoir plus</a>
             </article>
           </div>
         </section>
-
-        <ReviewsCarousel />
-
       </main>
       <Footer />
     </div>

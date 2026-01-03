@@ -9,9 +9,8 @@ export default function Header(){
     <header className="site-header">
       <div className="container header-inner">
         <div className="brand">
-          <Link href="/" onClick={close} className="brand-link" aria-label="Accueil">
-            <img src="assets/img/logo.png" alt="La Malle en Coin" className="logo"/>
-          </Link>
+          <img src="/assets/img/logo.png" alt="La Malle en Coin" className="logo"/>
+          <h1 className="site-title">La Malle en Coin</h1>
         </div>
 
         <nav className="main-nav">

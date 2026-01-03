@@ -7,7 +7,6 @@ export default function Values(){
       <main className="container">
         <h2>Nos valeurs</h2>
         <p>Contenu à compléter...</p>
-        <a className="btn-secondary" href="/nos-valeurs">En savoir plus</a>
       </main>
       <Footer />
     </div>
