@@ -40,10 +40,10 @@ export default function Footer(){
         <div className="footer-col contact">
           <h4>Nous contacter</h4>
           <p>
-            <a href="mailto:info@la-malle-en-coin.comcontact@la-malle-en-coin.com">info@la-malle-en-coin.com</a>
+            <a href="mailto:info@la-malle-en-coin.com">info@la-malle-en-coin.com</a>
           </p>
           <p className="contact-phone">
-            <a href="tel:+33 (0)3 88 93 28 23 ">+33 (0)3 88 93 28 23 </a>
+            <a href="tel:+33388932823">+33 (0)3 88 93 28 23</a>
           </p>
         </div>
       </div>
