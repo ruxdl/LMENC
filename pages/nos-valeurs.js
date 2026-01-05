@@ -2,9 +2,8 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 
 export default function Values(){
-  const prefix = typeof window !== 'undefined' && window.location.pathname.startsWith('/LMENC') ? '/LMENC' : ''
-  const videoSrc = `${prefix}/assets/videos/valeurs.mp4`
-  const imgSrc = `${prefix}/assets/img/valeurs.jpg`
+  const videoSrc = 'assets/videos/valeurs.mp4'
+  const imgSrc = 'assets/img/valeurs.jpg'
 
   return (
     <div>
