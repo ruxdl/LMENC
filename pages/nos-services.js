@@ -3,6 +3,8 @@ import Footer from '../components/Footer'
 import Link from 'next/link'
 
 export default function Services(){
+  // runtime prefix to support deployment under a repo subpath (e.g. /LMENC)
+  const prefix = typeof window !== 'undefined' && window.location.pathname.startsWith('/LMENC') ? '/LMENC' : ''
   return (
     <div>
       <Header />
@@ -11,21 +13,21 @@ export default function Services(){
 
         <section className="big-services">
           <article className="service-large">
-            <img src="assets/img/service-renovation.jpg" alt="Rénovation de malles" style={{width: '31%'}} />
+            <img src={`${prefix}/assets/img/service-renovation.jpg`} alt="Rénovation de malles" style={{width: '31%'}} />
             <h3>Rénovations de malles</h3>
             <p>Réparations structurales, restauration des revêtements et traitements des cuirs pour redonner vie aux pièces anciennes.</p>
             <Link href="/nos-services/renovations-de-malles" className="btn-secondary">En savoir plus</Link>
           </article>
 
           <article className="service-large">
-            <img src="assets/img/service-creation.jpg" alt="Créations de malles" />
+            <img src={`${prefix}/assets/img/service-creation.jpg`} alt="Créations de malles" />
             <h3>Créations de malles</h3>
             <p>Conceptions sur‑mesure et réalisations artisanales pour créer des malles uniques.</p>
             <Link href="/nos-services/creations-de-malles" className="btn-secondary">En savoir plus</Link>
           </article>
 
           <article className="service-large">
-            <img src="assets/img/service-vente.jpg" alt="Ventes de malles et pièces détachées" />
+            <img src={`${prefix}/assets/img/service-vente.jpg`} alt="Ventes de malles et pièces détachées" />
             <h3>Ventes de malles et pièces détachées</h3>
             <p>Sélection de malles prêtes à l'emploi et pièces détachées pour restauration ou personnalisation.</p>
             <Link href="/nos-services/ventes-de-malles" className="btn-secondary">En savoir plus</Link>
