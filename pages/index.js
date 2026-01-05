@@ -2,6 +2,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import ReviewsCarousel from '../components/ReviewsCarousel'
 import PhotoCarousel from '../components/PhotoCarousel'
+import Link from 'next/link'
 
 export default function Home(){
   return (
@@ -37,19 +38,19 @@ export default function Home(){
             <article className="service">
               <h4 className="service-title">Nos prestations</h4>
               <p className="service-desc">Explorez l'ensemble de nos prestations et services.</p>
-              <a className="btn-secondary" href="nos-services">En savoir plus</a>
+              <Link href="/nos-services" className="btn-secondary">En savoir plus</Link>
             </article>
 
             <article className="service">
               <h4 className="service-title">Qui sommes-nous ?</h4>
               <p className="service-desc">Découvrez notre histoire et notre philosophie.</p>
-              <a className="btn-secondary" href="qui-sommes-nous">En savoir plus</a>
+              <Link href="/qui-sommes-nous" className="btn-secondary">En savoir plus</Link>
             </article>
 
             <article className="service">
               <h4 className="service-title">Nos valeurs</h4>
               <p className="service-desc">Apprenez en plus sur nos valeurs.</p>
-              <a className="btn-secondary" href="nos-valeurs">En savoir plus</a>
+              <Link href="/nos-valeurs" className="btn-secondary">En savoir plus</Link>
             </article>
           </div>
         </section>

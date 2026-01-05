@@ -144,7 +144,7 @@ main.container{padding-top:88px}
 
 /* galerie centrée : aligner les 3 images sur la même ligne */
 .about-gallery{display:flex;justify-content:center;align-items:flex-end;gap:12px;margin-top:16px}
-.about-gallery img{width:100%;height:auto;border-radius:8px;display:block;transition:transform .18s ease;max-width:280px}
+.about-gallery img{height:auto;border-radius:8px;display:block;transition:transform .18s ease;max-width:100%;flex:0 0 auto}
 .about-gallery img:nth-child(odd){transform:none}
 
 @media(max-width:900px){
@@ -177,10 +177,18 @@ main.container{padding-top:88px}
 /* Reviews carousel */
 .reviews-carousel{padding:36px 0}
 .reviews-title{text-align:center;margin:0 0 18px;font-family:"Copperplate Gothic 29 BC", Copperplate, "Copperplate Gothic", serif;color:var(--accent-dark)}
-.reviews-wrap{display:flex;align-items:center;gap:12px;position:relative}
-.reviews-nav{background:transparent;border:1px solid rgba(0,0,0,0.06);padding:8px 12px;border-radius:8px;cursor:pointer;font-size:20px}
+.reviews-wrap{display:flex;align-items:center;justify-content:center;gap:12px;position:relative;max-width:920px;margin:0 auto}
 .reviews-list{display:flex;gap:12px;transition:transform .4s ease;width:100%;overflow:hidden;padding:0;margin:0;list-style:none}
-.review-card{min-width:100%;box-sizing:border-box;background:var(--panel-bg);border-radius:8px;padding:20px;border:1px solid rgba(0,0,0,0.04)}
+.reviews-list li.review-card{box-sizing:border-box}
+.reviews-nav{background:transparent;border:1px solid rgba(0,0,0,0.06);padding:8px 12px;border-radius:8px;cursor:pointer;font-size:20px;position:absolute;top:50%;transform:translateY(-50%);z-index:10}
+.reviews-nav.prev{left:-48px}
+.reviews-nav.next{right:-48px}
+/* fallback for small screens: let arrows sit inside the container */
+@media (max-width:1000px){
+  .reviews-nav.prev{left:8px}
+  .reviews-nav.next{right:8px}
+}
+.review-card{box-sizing:border-box;background:var(--panel-bg);border-radius:8px;padding:20px;border:1px solid rgba(0,0,0,0.04);min-width:0}
 .review-stars{color:#f6c45a;margin-bottom:8px}
 .review-stars .star{opacity:.25;margin-right:4px}
 .review-stars .star.filled{opacity:1;color:#f6c45a}
@@ -192,7 +200,7 @@ main.container{padding-top:88px}
 
 @media(min-width:900px){
   .reviews-list{overflow:visible}
-  .review-card{min-width:360px;margin:0 auto}
+  .review-card{margin:0 auto}
 }
 
 /* Photo carousel styles */

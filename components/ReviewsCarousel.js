@@ -21,7 +21,7 @@ function Stars({value}){
   )
 }
 
-export default function ReviewsCarousel(){
+export default function ReviewsCarousel({listOffset = -11}){
   const [index, setIndex] = useState(0) // start index of visible window
   const [visibleCount, setVisibleCount] = useState(3)
 
@@ -61,7 +61,7 @@ export default function ReviewsCarousel(){
       <div className="reviews-wrap">
         <button className="reviews-nav prev" onClick={prev} aria-label="Précédent">‹</button>
 
-        <ul className="reviews-list" style={{display: 'flex', gap: '12px', padding: 0, margin: 0, listStyle: 'none', width: '100%'}}>
+        <ul className="reviews-list" aria-live="polite" style={{transform: `translateX(${listOffset}px)`}}>
           {visible.map((r, i) => (
             <li className="review-card" key={i} aria-hidden={false} style={{flex: `0 0 ${cardWidthPercent}%`}}>
               <Stars value={r.rating} />

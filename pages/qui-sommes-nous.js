@@ -17,7 +17,7 @@ export default function About(){
             </div>
             <div className="about-image">
               {/* Définir la largeur en pourcentage ici (ex: '80%') */}
-              <img src="assets/img/qsn1.png" alt="La Malle en Coin - atelier" style={{width: '50%'}} />
+              <img src="assets/img/qsn1.png" alt="La Malle en Coin - atelier" style={{width: '63%'}} />
             </div>
           </div>
           <div className="cut-line" aria-hidden="true"><img src="assets/img/scissors.svg" alt="ciseaux" className="cut-svg"/></div>
@@ -36,7 +36,7 @@ export default function About(){
                 <ul>
                   <li><strong>Jean-Philippe</strong>, restaurateur, met son expertise et sa passion au service de chaque malle, en respectant les techniques traditionnelles.</li>
                   <li><strong>Marie</strong>, en charge de l’organisation, du suivi des projets et de la relation avec les clients, participe activement à la vie et au développement de l’atelier.</li>
-                  <li><strong>Le peintre</strong>, spécialisé dans les finitions et décors, intervient pour redonner aux malles leur esthétique d’origine ou leur apporter une touche artistique unique.</li>
+                  <li><strong>Marc, le peintre</strong>, spécialisé dans les finitions et décors, intervient pour redonner aux malles leur esthétique d’origine ou leur apporter une touche artistique unique.</li>
                 </ul>
               </div>
             </div>
@@ -51,9 +51,9 @@ export default function About(){
           </div>
            <div className="about-gallery">
              {/* Définir un pourcentage différent pour chaque vignette si besoin */}
-             <img src="assets/img/qsn3.png" alt="Restaurations 1" style={{width: '92%'}} />
-             <img src="assets/img/qsn4.png" alt="Restaurations 2" style={{width: '85%'}} />
-             <img src="assets/img/qsn5.png" alt="Restaurations 3" style={{width: '78%'}} />
+             <img src="assets/img/qsn3.png" alt="Restaurations 1" style={{width: '31%'}} />
+             <img src="assets/img/qsn4.png" alt="Restaurations 2" style={{width: '35%'}} />
+             <img src="assets/img/qsn5.png" alt="Restaurations 3" style={{width: '35%'}} />
            </div>
          </section>
 

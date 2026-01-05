@@ -16,7 +16,7 @@ export default function Values(){
         </div>
 
         <section className="values-media" style={{display:'flex',gap:16,alignItems:'flex-start',marginTop:18}}>
-          <img src={imgSrc} alt="Nos valeurs" style={{width:'50%',borderRadius:8,objectFit:'cover'}} />
+          <img src={imgSrc} alt="Nos valeurs" style={{width:'47%',borderRadius:8,objectFit:'cover'}} />
           <video src={videoSrc} controls style={{width:'50%',borderRadius:8}} />
         </section>
 
