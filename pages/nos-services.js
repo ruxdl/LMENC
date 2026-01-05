@@ -1,11 +1,8 @@
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import Link from 'next/link'
-
-export default function Services(){
-  // runtime prefix to support deployment under a repo subpath (e.g. /LMENC)
-  const prefix = typeof window !== 'undefined' && window.location.pathname.startsWith('/LMENC') ? '/LMENC' : ''
+export default function About(){
   return (
+
     <div>
       <Header />
       <main className="container">
