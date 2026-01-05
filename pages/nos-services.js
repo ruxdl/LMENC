@@ -11,7 +11,7 @@ export default function Services(){
 
         <section className="big-services">
           <article className="service-large">
-            <img src="assets/img/service-renovation.png" alt="Rénovation de malles" style={{width: '31%'}} />
+            <img src="assets/img/service-renovation.jpg" alt="Rénovation de malles" style={{width: '31%'}} />
             <h3>Rénovations de malles</h3>
             <p>Réparations structurales, restauration des revêtements et traitements des cuirs pour redonner vie aux pièces anciennes.</p>
             <Link href="/nos-services/renovations-de-malles" className="btn-secondary">En savoir plus</Link>
