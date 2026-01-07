@@ -12,7 +12,7 @@ export default function Header(){
       <div className="container header-inner">
         <div className="brand">
           <Link href={prefix + '/'} onClick={close} className="brand-link" aria-label="Accueil">
-            <img src={`assets/img/logo.png`} alt="La Malle en Coin" className="logo"/>
+            <img src={`${prefix}/assets/img/logo.png`} alt="La Malle en Coin" className="logo"/>
           </Link>
           <span className="site-title">LA MALLE EN COIN</span>
         </div>
