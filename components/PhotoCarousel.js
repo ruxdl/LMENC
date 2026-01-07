@@ -2,13 +2,13 @@ import {useState, useEffect} from 'react'
 
 // Drop your images in public/assets/gallery named slide1.jpg, slide2.jpg, slide3.jpg ...
 const slides = [
-  'assets/gallery/slide1.jpg',
-  'assets/gallery/slide2.jpg',
-  'assets/gallery/slide3.jpg',
-  'assets/gallery/slide4.jpg',
-  'assets/gallery/slide5.jpg',
-  'assets/gallery/slide6.jpg',
-  'assets/gallery/slide7.jpg',
+  'assets/gallery/slide1.png',
+  'assets/gallery/slide2.png',
+  'assets/gallery/slide3.png',
+  'assets/gallery/slide4.png',
+  'assets/gallery/slide5.png',
+  'assets/gallery/slide6.png',
+  'assets/gallery/slide7.png',
 ]
 
 export default function PhotoCarousel({interval = 4000}){
