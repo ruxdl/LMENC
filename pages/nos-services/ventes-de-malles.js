@@ -20,7 +20,7 @@ export default function Ventes(){
 
         {/* Title, hero image and intro text requested by user */}
         <h1>Ventes de malles et pièces détachées</h1>
-        <img src={`${prefix}/assets/img/service-vente.jpg`} alt="Ventes de malles" style={{width:'100%',maxWidth:900,display:'block',margin:'16px auto',borderRadius:8}} />
+        <img src={`${prefix}/assets/img/service-vente.png`} alt="Ventes de malles" style={{width:'100%',maxWidth:900,display:'block',margin:'16px auto',borderRadius:8}} />
         <p>Nous proposons une sélection de malles restaurées et d'éléments détachés pour les professionnels et particuliers souhaitant restaurer ou personnaliser leurs pièces.</p>
         <p>Contactez-nous pour connaître nos disponibilités et recevoir des conseils sur les pièces compatibles.</p>
 

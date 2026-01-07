@@ -20,7 +20,7 @@ export default function Creations(){
         <video src={videoSrc} controls preload="metadata" playsInline controlsList="nodownload" className="service-video" style={{width:'100%',maxWidth:900,display:'block',margin:'16px auto',borderRadius:8}}>
           Votre navigateur ne supporte pas la vidéo.
         </video>
-        <img src="/assets/img/service-creation.jpg" alt="Créations de malles" style={{width:'100%',maxWidth:900,display:'block',margin:'12px auto',borderRadius:8}} />
+        <img src="/assets/img/service-creation.png" alt="Créations de malles" style={{width:'100%',maxWidth:900,display:'block',margin:'12px auto',borderRadius:8}} />
         <p style={{textAlign:'center',color:'#5a4a3e',fontStyle:'italic',marginTop:8}}>Exemple de création de malle unique</p>
 
         <p><Link href="/nos-services" className="btn-secondary">Retour aux prestations</Link></p>

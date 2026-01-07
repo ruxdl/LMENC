@@ -3,7 +3,7 @@ import Footer from '../components/Footer'
 
 export default function Values(){
   const videoSrc = 'assets/videos/valeurs.mp4'
-  const imgSrc = 'assets/img/valeurs.jpg'
+  const imgSrc = 'assets/img/valeurs.png'
 
   return (
     <div>
