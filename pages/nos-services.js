@@ -6,12 +6,12 @@ export default function Services(){
     <div>
       <Header />
       <main className="container">
-        <h2>Nos prestations</h2>
+        <h2>Nos Prestations</h2>
 
-        <section className="big-services">
+         <section className="big-services">
           <article className="service-large">
             <img
-              src="assets/img/servicerenovation.jpg"
+              src="assets/img/service-renovation.jpg"
               alt="Rénovation de malles"
               style={{ width: '31%' }}
             />
@@ -30,7 +30,7 @@ export default function Services(){
 
           <article className="service-large">
             <img
-              src="assets/img/servicecreation.jpg"
+              src="assets/img/service-creation.jpg"
               alt="Créations de malles"
             />
             <h3>Créations de malles</h3>
@@ -48,7 +48,7 @@ export default function Services(){
 
           <article className="service-large">
             <img
-              src="assets/img/servicevente.jpg"
+              src="assets/img/service-vente.jpg"
               alt="Ventes de malles et pièces détachées"
             />
             <h3>Ventes de malles et pièces détachées</h3>
@@ -64,6 +64,7 @@ export default function Services(){
             </Link>
           </article>
         </section>
+
       </main>
       <Footer />
     </div>
