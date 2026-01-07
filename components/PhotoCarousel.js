@@ -13,6 +13,8 @@ const slides = [
 
 export default function PhotoCarousel({interval = 4000}){
   const [index, setIndex] = useState(0)
+  // runtime prefix to support deployment under a repo subpath (e.g. /LMENC)
+  const prefix = (typeof window !== 'undefined' && window.location.pathname.startsWith('/LMENC')) ? '/LMENC' : ''
 
   useEffect(()=>{
     const id = setInterval(()=> setIndex(i => (i + 1) % slides.length), interval)
@@ -25,7 +27,7 @@ export default function PhotoCarousel({interval = 4000}){
         {slides.map((src, i) => (
           <img
             key={i}
-            src={src}
+            src={`${prefix}/${src}`}
             alt={`Slide ${i+1}`}
             className={`slide ${i === index ? 'active' : ''}`}
             loading="lazy"
