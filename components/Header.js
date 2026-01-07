@@ -11,7 +11,7 @@ export default function Header(){
     <header className="site-header">
       <div className="container header-inner">
         <div className="brand">
-          <Link href={prefix + '/'} onClick={close} className="brand-link" aria-label="Accueil">
+          <Link href="/" onClick={close} className="brand-link" aria-label="Accueil">
             <img src={`${prefix}/assets/img/logo.png`} alt="La Malle en Coin" className="logo"/>
           </Link>
           <span className="site-title">LA MALLE EN COIN</span>
