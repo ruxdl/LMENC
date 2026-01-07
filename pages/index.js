@@ -17,7 +17,7 @@ export default function Home(){
               <h2 className="hero-title">Rénovation de malles et bagages de luxe</h2>
               <p className="hero-sub">Savoir-faire artisanal — Restauration, personnalisation et entretien pour pièces d'exception</p>
             </div>
-            <div className="cut-line" aria-hidden="true"><img src={`${prefix}/assets/img/scissors.svg`} alt="ciseaux" className="cut-svg" loading="lazy"/></div>
+            <div className="cut-line" aria-hidden="true"><img src="assets/img/scissors.svg" alt="ciseaux" className="cut-svg"/></div>
           </div>
         </section>
 
