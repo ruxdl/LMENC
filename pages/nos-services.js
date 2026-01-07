@@ -13,7 +13,7 @@ export default function Services(){
             <img
               src="assets/img/service-renovation.png"
               alt="Rénovation de malles"
-              style={{ width: '31%' }}
+              loading="lazy"
             />
             <h3>Rénovations de malles</h3>
             <p>
