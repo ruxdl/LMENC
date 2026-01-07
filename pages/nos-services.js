@@ -11,7 +11,7 @@ export default function Services(){
          <section className="big-services">
           <article className="service-large">
             <img
-              src="assets/img/qsn1.png"
+              src="assets/img/service-renovation.png"
               alt="Rénovation de malles"
               style={{ width: '31%' }}
             />
@@ -30,7 +30,7 @@ export default function Services(){
 
           <article className="service-large">
             <img
-              src="assets/img/service-creation.jpg"
+              src="assets/img/service-creation.png"
               alt="Créations de malles"
             />
             <h3>Créations de malles</h3>
@@ -48,7 +48,7 @@ export default function Services(){
 
           <article className="service-large">
             <img
-              src="assets/img/service-vente.jpg"
+              src="assets/img/service-vente.png"
               alt="Ventes de malles et pièces détachées"
             />
             <h3>Ventes de malles et pièces détachées</h3>
