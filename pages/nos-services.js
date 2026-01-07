@@ -11,7 +11,7 @@ export default function Services(){
          <section className="big-services">
           <article className="service-large">
             <img
-              src="assets/img/service-renovation.jpg"
+              src="assets/img/qsn1.png"
               alt="Rénovation de malles"
               style={{ width: '31%' }}
             />
