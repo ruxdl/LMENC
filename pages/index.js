@@ -5,6 +5,8 @@ import PhotoCarousel from '../components/PhotoCarousel'
 import Link from 'next/link'
 
 export default function Home(){
+  // runtime prefix to support deployment under a repo subpath (e.g. /LMENC)
+  const prefix = (typeof window !== 'undefined' && window.location.pathname.startsWith('/LMENC')) ? '/LMENC' : ''
   return (
     <div>
       <Header />
@@ -15,7 +17,7 @@ export default function Home(){
               <h2 className="hero-title">Rénovation de malles et bagages de luxe</h2>
               <p className="hero-sub">Savoir-faire artisanal — Restauration, personnalisation et entretien pour pièces d'exception</p>
             </div>
-            <div className="cut-line" aria-hidden="true"><img src="assets/img/scissors.svg" alt="ciseaux" className="cut-svg"/></div>
+            <div className="cut-line" aria-hidden="true"><img src={`${prefix}/assets/img/scissors.svg`} alt="ciseaux" className="cut-svg" loading="lazy"/></div>
           </div>
         </section>
 
