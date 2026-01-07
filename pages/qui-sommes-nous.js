@@ -17,7 +17,7 @@ export default function About(){
             </div>
             <div className="about-image">
               {/* Définir la largeur en pourcentage ici (ex: '80%') */}
-              <img src="assets/img/qsn1.png" alt="La Malle en Coin - atelier" style={{width: '63%'}} />
+              <img src="assets/img/service-creation.jpg" alt="La Malle en Coin - atelier" style={{width: '63%'}} />
             </div>
           </div>
           <div className="cut-line" aria-hidden="true"><img src="assets/img/scissors.svg" alt="ciseaux" className="cut-svg"/></div>
